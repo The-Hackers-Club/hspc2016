@@ -1,0 +1,7 @@
+length = float(input("Length: "))
+width = float(input("Width: "))
+
+area_of_SemiCircle = 3.14159 * (width ** 2) / 2
+area_of_Rectangle = length * width
+
+print ("Max % "), area_of_SemiCircle / area_of_Rectangle * 100
